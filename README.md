@@ -8,9 +8,9 @@ Given a text file as input:
   - Shows the position of the words
   - Information for each unique word is only shown once
 
-### Task
+### Description
 
-This assignment required us to write a program which accepts the name of a text file from the command line. It can be assumed that the text file contains English text. The program should then output the frequency of each word in the file, along with a list of position indexes. The information for each unique word should be shown only once.
+This assignment required us to write a program which accepts the name of a text file from the command line. It can be assumed that the text file contains English text. The program outputs the frequency of each word in the file, along with a list of position indexes. The information for each unique word is shown only once.
 
 If for example the input text file contains the following content:
 
@@ -37,7 +37,7 @@ The output should be the following:
 > care - 0.0625: 16 
 
 
-It must be noted this example is extremely small. The program should be written so that it can handle an arbitrary number of words, appearing in an arbitrary number of positions. The program must also reliably work with files larger than 1 MB. 
+This example is extremely small. The program is written so that it can handle an arbitrary number of words, appearing in an arbitrary number of positions. The program can also reliably work with files larger than 1 MB. 
 
 ### How to run this code
 
