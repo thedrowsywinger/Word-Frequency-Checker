@@ -2,7 +2,7 @@
 
 This project was created for an assignment required by the course CSE 225 ("Data Structure and Algorithms") at North South University. 
 
-# Features!
+# Features
 Given a text file as input:
   - Shows the frequency of each word
   - Shows the position of the words
