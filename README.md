@@ -16,34 +16,32 @@ If for example the input text file contains the following content:
 
 > The quick brown fox jumps over the lazy dog. However, the dog really did not care.
 
-The output should be the following:
+The output will be the following:
 
->Total number of words: 16
-
->Word Frequencies and Positions:
-
-> the - 0.1875: 1,7,11
-> quick - 0.0625: 2
-> brown - 0.0625: 3
-> fox - 0.0625: 4
-> jumps - 0.0625: 5
-> over - 0.0625: 6 
-> lazy - 0.0625: 8
-> dog - 0.125: 9, 12
-> however - 0.0625: 10
-> really - 0.0625: 13 
-> did - 0.0625: 14 
-> not - 0.0625: 15 
-> care - 0.0625: 16 
-
+```sh
+Opening input.txt
+Word: the - Frequency: 0.1875 - Position: 1 7 11 
+Word: quick - Frequency: 0.0625 - Position: 2 
+Word: brown - Frequency: 0.0625 - Position: 3 
+Word: fox - Frequency: 0.0625 - Position: 4 
+Word: jumps - Frequency: 0.0625 - Position: 5 
+Word: over - Frequency: 0.0625 - Position: 6 
+Word: lazy - Frequency: 0.0625 - Position: 8 
+Word: dog - Frequency: 0.125 - Position: 9 12 
+Word: however - Frequency: 0.0625 - Position: 10 
+Word: really - Frequency: 0.0625 - Position: 13 
+Word: did - Frequency: 0.0625 - Position: 14 
+Word: not - Frequency: 0.0625 - Position: 15 
+Word: care - Frequency: 0.0625 - Position: 16 
+```
 
 This example is extremely small. The program is written so that it can handle an arbitrary number of words, appearing in an arbitrary number of positions. The program can also reliably work with files larger than 1 MB. 
 
 ### How to run this code
 
 ```sh
-$ g++ frequency_checker.cpp -o run
-$ ./run
-$ Type the name of your file: input
+g++ frequency_checker.cpp -o run
+./run
+Type the name of your file: input
 ```
 

@@ -135,9 +135,11 @@ int main(void) {
     
 
     y = x.append(".txt");
-    cout << "Opening " << y; 
+    cout << "Opening " << y << endl; 
 
     file.open(y, std::fstream::out);
+
+    cout << "";
 
     string s;
     if (file.is_open()) {
